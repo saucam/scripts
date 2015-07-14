@@ -105,7 +105,7 @@ if __name__=="__main__":
         #TODO: Search for tables in allTables and create the list of tables to be copied   
         
         print options.dbName
-        for table in allTables[1:]:
+        for table in allTables:
             tableName = table.split(str(options.dbName))[1].split("/")[1]
             finalPath = options.outPath + "/" + options.dbName + "/" + str(tableName)
             cmd = "mkdir -p " + finalPath
