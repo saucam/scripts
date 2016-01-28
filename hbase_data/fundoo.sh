@@ -1,3 +1,3 @@
 while read p; do
-  echo $p | /opt/bin/hbase shell
+  echo $p | /opt/hbase/bin/hbase shell
 done <create_tables
