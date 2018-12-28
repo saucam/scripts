@@ -2,7 +2,7 @@ Download ipcalc from [here](http://jodies.de/ipcalc-archive/ipcalc-0.41/)
 
 Create a file containing your ip ranges :
 ```
-cat ip,.txt
+cat ip.txt
 173.45.64.0-173.45.127.255
 209.190.0.0-209.190.127.255
 209.51.192.0-209.51.223.255
